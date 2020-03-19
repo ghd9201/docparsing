@@ -1,0 +1,45 @@
+참고
+
+v = convert_pdf_to_txt('상반기사업 점검.pdf')
+txt_write('상반기사업 점검.txt', v)
+print(v)
+
+print("-------------------------------------------------")
+c = data_cleansing_character(v)
+txt_write('상반기사업 점검2.txt', c)
+print(c)
+
+print("-------------------------------------------------")
+g = data_cleansing_index(c)
+txt_write('상반기사업 점검4.txt', g)
+print(g)
+
+print("-------------------------------------------------")
+j = data_cleansing_useless(g)
+txt_write('상반기사업 점검5.txt', j)
+print(j)
+
+print("-------------------------------------------------")
+k = string_to_word_list(j)
+word_list_write('상반기사업 점검6.txt', k)
+print(k)
+
+
+------------------------------------------------
+
+#pdf 파일 읽어와 텍스트 파일 저장
+v = convert_pdf_to_txt('상반기사업 점검.pdf')
+txt_write('상반기사업 점검.txt', v)
+
+#특수 문자 제거
+c = data_cleansing_character(v)
+
+#목차 제거
+g = data_cleansing_index(c)
+
+#무의미한 단어 제거
+j = data_cleansing_useless(g)
+
+#단어만 추출하여 텍스트파일 저장
+k = string_to_word_list(j)
+word_list_write('상반기사업 점검2.txt', k)
