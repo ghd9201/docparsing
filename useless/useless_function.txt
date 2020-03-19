@@ -1,0 +1,17 @@
+#인덱스 제거     ->      단어 출력할 때 길이로 제한해도 될 듯
+def data_cleansing_index(d):                      # 정규표현식을 활용 but, 목차 제거 등은 다른 방법이 필요한 듯
+    parse = re.sub('\n[a-zA-Z0-9가-힝] {1}',"",d)          #parse = re.sub('[^\w\s]',"",d)   이것도 되나?
+    return parse
+
+# 한글 한 글자, 영어 1-2 글자, 숫자만 있는 글자, 20자 이상의 글자 제거  --> 이거 제거 해야하는 건지 애매함
+def data_cleansing_useless(d):
+    parse1 = re.sub(' [a-zA-Z0-9가-힝] {1}'," ",d)
+    parse2 = re.sub(' [a-zA-Z][a-zA-Z] {1}', " ", parse1)
+    parse3 = re.sub(' [0-9]* {1}|[0-9]* {1}| [0-9]*', " ", parse2)
+    #parse4 = re.sub('[a-zA-Z0-9가-힝]{20}', "", parse3)           # 이건 단어 길이 제한해서 출력하는 식으로 해야할 듯
+    return parse3
+
+def string_to_word_list(d):
+    p = re.compile('[a-zA-Z0-9가-힝][a-zA-Z0-9가-힝]+')
+    result = p.findall(d)
+    return result

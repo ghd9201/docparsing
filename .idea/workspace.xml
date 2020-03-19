@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8bcd364-484e-42ed-a812-117d8f5d0f09" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/useless/useless_function.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/ModCrypter 기술 요약_pdf 읽기.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/ModCrypter 기술 요약_단어 추출.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/ModCrypter 기술 요약_형태소 분석.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/Recommind_Categorization_May11_2011.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/Symantec_DLP_Solution_Brief_Final.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/VSD기능사양서040730_pdf 읽기.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/VSD기능사양서040730_단어 추출.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/VSD기능사양서040730_형태소 분석.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/emerging_technology_analysis_296550-1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/상반기사업 점검_pdf 읽기.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/상반기사업 점검_단어 추출.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/상반기사업 점검_형태소 분석.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회결의서_pdf 읽기.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회결의서_단어 추출.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회결의서_형태소 분석.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회의사록_pdf 읽기.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회의사록_단어 추출.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/이사회의사록_형태소 분석.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pdfparsing.py" beforeDir="false" afterPath="$PROJECT_DIR$/pdfparsing.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +59,9 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\docparsing\file" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Project\docparsing" />
     </key>
@@ -99,7 +120,7 @@
       <workItem from="1583914722353" duration="4959000" />
       <workItem from="1583997219553" duration="9567000" />
       <workItem from="1584582599148" duration="3704000" />
-      <workItem from="1584586877725" duration="295000" />
+      <workItem from="1584586877725" duration="1872000" />
     </task>
     <servers />
   </component>
@@ -116,30 +137,46 @@
     </state>
     <state x="1098" y="122" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583997821735" />
     <state x="1406" y="154" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583915412856" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584586493129">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1584588605053">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584013768566" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583926913689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584586493129" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584586493129">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588605053" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1584588605053">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584013768566" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583926913689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584586493129" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584586493129">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588605053" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1584588605053">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584013768566" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583926913689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584586493129" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584586493129">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588605053" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1584588605053">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584013768566" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1583926913689" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584586493129" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588605053" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1584588277649">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588277649" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1584588277648">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588277648" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1584588277648">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588277648" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1584588277648">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1584588277648" />
     <state x="2381" y="138" key="SettingsEditor" timestamp="1584584287922">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
@@ -163,6 +200,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/docparsing_20200319$pdfparsing.coverage" NAME="pdfparsing Coverage Results" MODIFIED="1584583861162" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/docparsing$pdfparsing.coverage" NAME="pdfparsing Coverage Results" MODIFIED="1584006373773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/docparsing$pdfparsing.coverage" NAME="pdfparsing Coverage Results" MODIFIED="1584588605048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
